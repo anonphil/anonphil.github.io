@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    font-size: 20px;
 }
 
 h1,
@@ -27,8 +28,9 @@ body {
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 40px;
     font-weight: 400;
+
 }
 
 .intro-header {
@@ -40,10 +42,12 @@ body {
     background-size: cover;
 }
 
+/*Title /lead*/
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    font-size: 20px;
 }
 
 .intro-message > h1 {
@@ -69,6 +73,7 @@ body {
 
     .intro-message > h1 {
         font-size: 3em;
+
     }
 
     ul.intro-social-buttons > li {
